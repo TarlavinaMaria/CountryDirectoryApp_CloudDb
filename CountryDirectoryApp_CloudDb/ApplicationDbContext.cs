@@ -10,7 +10,7 @@ namespace CountryDirectoryApp_CloudDb
         {
             string connectionString = @"
             User Id=postgres.epqmsmbycdvufduhqvfc;
-            Password=Taralvina592780s;
+            Password={};
             Server=aws-0-us-east-1.pooler.supabase.com;
             Port=5432;
             Database=postgres;
