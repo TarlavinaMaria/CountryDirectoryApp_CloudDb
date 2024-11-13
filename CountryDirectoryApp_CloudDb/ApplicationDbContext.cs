@@ -8,13 +8,7 @@ namespace CountryDirectoryApp_CloudDb
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connectionString = @"
-            User Id=postgres.epqmsmbycdvufduhqvfc;
-            Password={};
-            Server=aws-0-us-east-1.pooler.supabase.com;
-            Port=5432;
-            Database=postgres;
-            ";
+            string connectionString = @"";
             optionsBuilder.UseNpgsql(connectionString);
         }
     }
